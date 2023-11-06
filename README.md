@@ -11,12 +11,6 @@ Create a file in `.github/renovate.json5` , your work repository.
   
   // enable specific managers(recommend)
   "enabledManagers": ["npm", "github-actions"],
-
-  // for work projects
-  "schedule": ["after 9am on monday", "before 12am on monday"],
-  
-  // for personal projects
-  "schedule": ["after 9am on saturday", "before 12am on saturday"],
 }
 ```
 
