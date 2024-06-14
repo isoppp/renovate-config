@@ -1,6 +1,6 @@
 
 {
-  "extends": ["config:recommended", "group:allNonMajor"],
+  "extends": ["config:best-practices", "group:allNonMajor"],
   "timezone": "Asia/Tokyo",
   "schedule": ["after 7pm on Friday"],
   "prHourlyLimit": 0,
