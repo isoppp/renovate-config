@@ -6,7 +6,7 @@
   "prHourlyLimit": 0,
   "prConcurrentLimit": 10,
   "labels": ["renovate"],
-  "additionalBranchPrefix": "{{packageFileDir}}-",
+  "additionalBranchPrefix": "{{parentDir}}-",
   "rangeStrategy": "pin",
   "packageRules": [
     {
