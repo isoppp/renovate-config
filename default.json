@@ -14,7 +14,8 @@
       "enabled": false
     },
     {
-      "groupName": "all minor updates",
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch",
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "addLabels": ["auto-merge"]
