@@ -1,6 +1,6 @@
 
 {
-  "extends": ["config:best-practices", "group:allNonMajor"],
+  "extends": ["config:best-practices"],
   "timezone": "Asia/Tokyo",
   "schedule": ["after 7pm on Friday"],
   "prHourlyLimit": 0,
@@ -14,8 +14,11 @@
       "enabled": false
     },
     {
-      "groupName": "{{parentDir}} all non-major dependencies",
+      "groupName": "all non-major dependencies [{{packageFileDir}}]",
       "groupSlug": "all-minor-patch",
+      "matchPackageNames": [
+        "*"
+      ],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "addLabels": ["auto-merge"]
