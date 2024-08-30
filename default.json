@@ -12,6 +12,12 @@
     {
       "matchPackageNames": ["node", "postgres", "mysql"],
       "enabled": false
+    },
+    {
+      "groupName": "all minor updates",
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "addLabels": ["auto-merge"]
     }
   ]
 }
