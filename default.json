@@ -22,6 +22,10 @@
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "addLabels": ["auto-merge"]
+    },
+    {
+      "matchPackageNames": ["@tabler/icons-react"],
+      "automerge": false
     }
   ]
 }
