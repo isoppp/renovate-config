@@ -25,7 +25,7 @@
     },
     {
       "matchPackageNames": ["@tabler/icons-react"],
-      "automerge": false
+      "enabled": false
     }
   ]
 }
