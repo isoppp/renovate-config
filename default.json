@@ -20,7 +20,6 @@
         "*"
       ],
       "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true,
       "addLabels": ["auto-merge"]
     },
     {
