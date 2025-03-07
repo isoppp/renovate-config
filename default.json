@@ -2,7 +2,7 @@
 {
   "extends": ["config:best-practices"],
   "timezone": "Asia/Tokyo",
-  "schedule": ["after 7pm on Friday"],
+  "schedule": ["on the first Friday of the month"],
   "prHourlyLimit": 0,
   "prConcurrentLimit": 10,
   "labels": ["renovate"],
