@@ -1,7 +1,7 @@
 {
   "extends": ["config:best-practices"],
   "timezone": "Asia/Tokyo",
-  "schedule": ["0 0-23 5 * *"],
+  "schedule": ["* 0-23 5 * *"],
   "prHourlyLimit": 0,
   "prConcurrentLimit": 10,
   "labels": ["renovate"],
